@@ -1,8 +1,7 @@
 import { creditCards } from "@/lib/credit-cards.config"
 import CreditCard from "@/components/credit-card"
 import MeshGradientBackground from "@/components/mesh-gradient-background"
-import { CreditCard as CreditCardIcon } from 'lucide-react'
-import { RiLock2Fill } from "@remixicon/react"
+import { MdLock } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
       <header className="pt-16">
         <h1 className="max-w-4xl mx-auto text-3xl md:text-5xl flex gap-1 justify-center items-center font-gd">
           <span className="liquid-glass-text">Scredit</span>
-          <RiLock2Fill className="text-white/50 mt-1 size-4 md:size-8" />
+          <MdLock className="text-white/50 mt-1 size-4 md:size-8" />
           <span className="liquid-glass-text">Cards</span>
         </h1>
       </header>
