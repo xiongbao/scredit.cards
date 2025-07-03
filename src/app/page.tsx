@@ -17,13 +17,9 @@ export default function Home() {
 
       <main className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
         <div className="p-8 rounded-xl relative z-10 text-sm text-white/90 space-y-2 liquid-glass">
-          <p>
-            在移动支付盛行的今天，信用卡使用频率虽然不高，但在特定场景下仍然必不可少。
-            长期不使用容易忘记CVV等关键信息，特别是拥有多张信用卡时更容易混淆。
-          </p>
-          <p>
-            因此我创建了本站用来记录我的信用卡信息，方便我随时随地查看。所有敏感信息均经过加密处理。
-          </p>
+          <p><strong>Security Credit Cards</strong>，以安全的方式记录信用卡信息。</p>
+          <p>信用卡长期不使用容易忘记CVV等关键信息，特别是拥有多张信用卡时更容易混淆。</p>
+          <p>因此我创建了本站，方便我随时随地查看我的信用卡信息，所有敏感信息均经过加密处理。</p>
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -35,7 +31,7 @@ export default function Home() {
         <div className="mt-10 liquid-glass p-8 text-white/90 space-y-5">
           <div className="space-y-4">
             <h3 className="text-base font-semibold text-white/75">背景</h3>
-            <p className="text-white/90 text-sm">某天使用信用卡在线支付时，平时常用 Paypal 但有些服务商仅支持信用卡支付；虽然 Chrome 有自动填充卡号，但 CVV 一时记不起来，实卡也不在身边；所以就想创建一个网站来记录我的信用卡信息，方便随时随地查看。</p>
+            <p className="text-white/90 text-sm">某天使用信用卡在线支付时（平时常用Paypal，但有些服务商仅支持信用卡支付），虽然 Chrome 有自动填充卡号，但 CVV 一时记不起来，实卡也不在身边；所以就想创建一个网站来记录我的信用卡信息，方便随时随地查看。</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

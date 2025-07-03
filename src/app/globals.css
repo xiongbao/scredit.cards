@@ -9,6 +9,7 @@
   --gradient-color-5:hsla(256,89%,68%,1);
   --gradient-color-6:hsla(289,81%,68%,1);
   --gradient-color-7:hsla(169,64%,77%,1);
+  --font-gd: GDBoing;
 }
 
 @font-face {
@@ -30,9 +31,6 @@ body {
                     radial-gradient(at 0% 0%, var(--gradient-color-7) 0, transparent 50%);
 }
 @layer components {
-  .font-gd {
-    font-family: 'GDBoing';
-  }
   .liquid-glass {
     @apply relative z-1;
     &::before, &::after {
