@@ -39,8 +39,8 @@ export default function Home() {
               <h3 className="text-base font-semibold text-white/75">技术实现</h3>
               <ul className="space-y-1 text-sm text-white/90">
                 <li><strong>技术栈：</strong>Nextjs, TypeScript, Tailwindcss</li>
-                <li><strong>设计风格：</strong><a className="underline hover:text-white/75 underline-offset-2" href="https://developer.apple.com/videos/play/wwdc2025/219/" target="_blank">iOS 26 Liquid Glass</a></li>
-                <li><strong>仓库地址：</strong><a className="underline hover:text-white/75 underline-offset-2" href="https://cnb.cool/boring/scredit.cards" target="_blank" rel="noopener noreferrer">cnb.cool/boring/scredit.cards</a></li>
+                <li><strong>设计风格：</strong><a className="underline hover:text-white/75 underline-offset-3" href="https://developer.apple.com/videos/play/wwdc2025/219/" target="_blank">iOS 26 Liquid Glass</a></li>
+                <li><strong>仓库地址：</strong><a className="underline hover:text-white/75 underline-offset-3" href="https://cnb.cool/boring/scredit.cards" target="_blank" rel="noopener noreferrer">cnb.cool/boring/scredit.cards</a></li>
               </ul>
             </div>
             <div className="space-y-4">
